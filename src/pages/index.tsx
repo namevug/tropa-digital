@@ -9,7 +9,7 @@ import {
   VStack,
 } from '@chakra-ui/react'
 
-export default function Home() {
+export default function Login() {
   const isMobile = useBreakpointValue({
     base: true,
     md: false,
@@ -37,7 +37,7 @@ export default function Home() {
                   alt='notebook'
                   maxWidth='414px'
                   height='413px'
-                />
+                /> 
               </VStack>
             </Box>
           )}

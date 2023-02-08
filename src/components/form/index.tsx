@@ -1,4 +1,4 @@
-import { Button, Input, Text, VStack } from '@chakra-ui/react'
+import { Button, Input, Link, Text, VStack } from '@chakra-ui/react'
 
 export function Form() {
   return (
@@ -11,6 +11,7 @@ export function Form() {
         <Input type='email' placeholder='Digite seu e-mail' size='md' />
         <Input type='password' placeholder='Digite sua senha' size='md' />
 
+        <Link href='/home'>
         <Button
           style={{
             backgroundColor: '#2EAFB2',
@@ -27,6 +28,7 @@ export function Form() {
         >
           Acessar
         </Button>
+        </Link>
       </VStack>
     </>
   )
