@@ -1,8 +1,7 @@
-import { CardList } from "@/components/cardList";
 import { Sidebar } from "@/components/sidebar";
-import { Text, Image, Flex, Box } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
-export default function Home() {
+export default function Contatos() {
   return (
     <>
       <Flex h="100vh">
@@ -12,24 +11,15 @@ export default function Home() {
           </Box>
           <Sidebar />
         </Box>
-        <Box ml="47" mt="83">
+        <Box ml="47" mt="83" width="1549px">
           <Text
             fontSize="25px"
             fontWeight="400"
             lineHeight="46.63px"
             borderBottom="1px solid rgba(0, 0, 0, 0.1)"
           >
-            Olá Usuário
+            Contatos
           </Text>
-
-          <Flex mt="31" maxWidth="1549px" flexWrap="wrap" gap="24px">
-            <CardList />
-            <CardList />
-            <CardList />
-            <CardList />
-            <CardList />
-            <CardList />
-          </Flex>
         </Box>
       </Flex>
     </>

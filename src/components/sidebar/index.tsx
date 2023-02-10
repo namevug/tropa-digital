@@ -1,4 +1,4 @@
-import { Flex, HStack, Image, Text } from "@chakra-ui/react";
+import { Flex, HStack, Image, Link, Text } from "@chakra-ui/react";
 
 export function Sidebar() {
   return (
@@ -12,9 +12,11 @@ export function Sidebar() {
           bgColor="#F3F3F3"
         >
           <Image ml="16px" src="/iconsNav/rede.svg" />
-          <Text fontSize="14px" fontWeight="600" color="black">
-            Início
-          </Text>
+          <Link href="/home">
+            <Text fontSize="14px" fontWeight="600" color="black">
+              Início
+            </Text>
+          </Link>
         </HStack>
         <HStack
           as="button"
@@ -24,9 +26,11 @@ export function Sidebar() {
           bgColor="#2EAFB2"
         >
           <Image ml="16px" src="/iconsNav/file.svg" />
-          <Text fontSize="14px" fontWeight="600">
-            Contatos
-          </Text>
+          <Link href="/contatos">
+            <Text fontSize="14px" fontWeight="600">
+              Contatos
+            </Text>
+          </Link>
         </HStack>
         <HStack
           as="button"
@@ -36,9 +40,11 @@ export function Sidebar() {
           bgColor="#2EAFB2"
         >
           <Image ml="16px" src="/iconsNav/arrow.svg" />
-          <Text fontSize="14px" fontWeight="600">
-            Relatórios
-          </Text>
+          <Link href="/relatorios">
+            <Text fontSize="14px" fontWeight="600">
+              Relatórios
+            </Text>
+          </Link>
         </HStack>
         <HStack
           as="button"
@@ -48,9 +54,11 @@ export function Sidebar() {
           bgColor="#2EAFB2"
         >
           <Image ml="16px" src="/iconsNav/file.svg" />
-          <Text fontSize="14px" fontWeight="600">
-            Loren
-          </Text>
+          <Link href="loren">
+            <Text fontSize="14px" fontWeight="600">
+              Loren
+            </Text>
+          </Link>
         </HStack>
         <HStack
           as="button"
@@ -60,9 +68,11 @@ export function Sidebar() {
           bgColor="#2EAFB2"
         >
           <Image ml="16px" src="/iconsNav/file.svg" />
-          <Text fontSize="14px" fontWeight="600">
-            Loren
-          </Text>
+          <Link href="loren">
+            <Text fontSize="14px" fontWeight="600">
+              Loren
+            </Text>
+          </Link>
         </HStack>
       </Flex>
     </>
