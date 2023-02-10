@@ -1,8 +1,13 @@
-import { Flex, HStack, Image, Link, Text } from "@chakra-ui/react";
+import { Box, Flex, HStack, Image, Link, Text } from "@chakra-ui/react";
 
 export function Sidebar() {
   return (
     <>
+      <Box w="190px" mb="50px" pt="50px" marginInline="35px">
+        <Link href="/home">
+          <Image src="/logo-panel.png" alt="logo" />
+        </Link>
+      </Box>
       <Flex w="226px" ml="37px" gap={13} flexDirection="column" color="white">
         <HStack
           as="button"

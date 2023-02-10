@@ -6,9 +6,6 @@ export default function Contatos() {
     <>
       <Flex h="100vh">
         <Box w="260px" bg="white">
-          <Box w="190px" mb="50px" pt="50px" marginInline="35px">
-            <Image src="/logo-panel.png" alt="logo" />
-          </Box>
           <Sidebar />
         </Box>
         <Box ml="47" mt="83" width="1549px">
