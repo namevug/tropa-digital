@@ -7,7 +7,14 @@ export function Sidebar() {
     <>
       <Logo />
 
-      <Flex w="226px" ml="37px" gap={13} flexDirection="column" color="white">
+      <Flex
+        w="226px"
+        h="100vh"
+        ml="37px"
+        gap={13}
+        flexDirection="column"
+        color="white"
+      >
         <ActiveLink
           href="/home"
           icon="/iconsNav/rede.svg"

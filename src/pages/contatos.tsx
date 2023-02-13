@@ -4,7 +4,7 @@ import { Box, Flex, Show, Text } from "@chakra-ui/react";
 export default function Contatos() {
   return (
     <>
-      <Flex h="100vh" bg="#E5E5E5">
+      <Flex h="100vh">
         <Show above="md">
           <Box w="260px" bg="white">
             <Sidebar />

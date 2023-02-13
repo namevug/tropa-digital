@@ -18,7 +18,12 @@ export default function Login() {
 
   return (
     <>
-      <HStack justifyContent="center" alignContent="center" h="100vh">
+      <HStack
+        justifyContent="center"
+        alignContent="center"
+        h="100vh"
+        bg="#FF6C22"
+      >
         <Flex bgColor="white" w={[390, 390, 857]} h={512}>
           <Box w={["100%", "100%", "50%"]} h="100%">
             <Center mt={70}>
