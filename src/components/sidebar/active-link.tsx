@@ -19,7 +19,6 @@ export function ActiveLink({
   const { asPath } = useRouter();
 
   const isActiveLink = asPath === href || asPath === "";
-  console.log(icon);
 
   return (
     <NextLink href={href} passHref>
