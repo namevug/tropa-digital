@@ -1,6 +1,6 @@
 import { CardList } from "@/components/cardList";
 import { Sidebar } from "@/components/sidebar";
-import { Text, Image, Flex, Box, Link } from "@chakra-ui/react";
+import { Text, Flex, Box } from "@chakra-ui/react";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
         <Box w="260px" bg="white">
           <Sidebar />
         </Box>
+
         <Box ml="47" mt="83">
           <Text
             fontSize="25px"
