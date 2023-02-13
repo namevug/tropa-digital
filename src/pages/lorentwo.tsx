@@ -1,13 +1,15 @@
 import { Sidebar } from "@/components/sidebar";
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Show, Text } from "@chakra-ui/react";
 
 export default function LorenTwo() {
   return (
     <>
       <Flex h="100vh">
-        <Box w="260px" bg="white">
-          <Sidebar />
-        </Box>
+        <Show above="md">
+          <Box w="260px" bg="white">
+            <Sidebar />
+          </Box>
+        </Show>
         <Box ml="47" mt="83" width="1549px">
           <Text
             fontSize="25px"
