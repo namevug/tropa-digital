@@ -4,7 +4,7 @@ import { Box, Flex, Show, Text } from "@chakra-ui/react";
 export default function LorenTwo() {
   return (
     <>
-      <Flex h="100vh">
+      <Flex h="100vh" bg="#E5E5E5">
         <Show above="md">
           <Box w="260px" bg="white">
             <Sidebar />
